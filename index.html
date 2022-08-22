@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Encriptador de mensajes </title>
+</head>
+
+<body>
+  <!-- Image and text -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="./index.html">
+      encryptorJS
+    </a>
+  </nav>
+
+  <section>
+    <h2>Escriba un texo. Solo letras minúsculas y sin acentos </h2>
+    <div>
+      <textarea id="encriptando" placeholder="Ingrese el texto aquí"></textarea>
+      <div>
+        <div>
+          <button type="button" id="btn-enc">Encriptar</button>
+        </div>
+        <button type="button" id="btn-desc">Desencriptar</button>
+      </div>
+    </div>
+  </section>
+  <section id="salida">
+    <h4>Ningún mensaje fue encontrado</h4>
+    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+  </section>
+  <script src="./index.js"></script>
+</body>
+
+</html>
